@@ -1,0 +1,292 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    font-family: 'Roboto',sans-serif;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 6;
+    background-color: white;
+}
+
+header .logo{
+    height: inherit;
+    width: 25%;
+    /* border: 1px solid black; */
+}
+
+header .logo #i2{
+    margin-top: 35px;
+    float: left;
+    display: none;
+    font-size: 30px;
+    margin-left: 30px;
+}
+header .logo img{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+header .nav1{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+header .nav1 a{
+    line-height: 100px;
+    margin-inline: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition-duration: 1s;
+}
+
+header .nav1 a:hover{
+    color: #c00a27;
+}
+
+header #a1{
+    color: black;
+}
+
+header .nav2{
+    height: inherit;
+    width: 25%;
+    /* border: 1px solid black; */
+}
+
+header .nav2 svg{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+header .nav2 #svg1{
+    margin-left: 150px;
+}
+
+
+.main1{
+    height: 200px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://yummi-theme.myshopify.com/cdn/shop/files/home-01.jpg?v=1628143320&width=1920);
+    background-size: cover;
+}
+
+.main1 h1{
+    text-align: center;
+    font-family: 'Nunito',sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.d8{
+    height: 500px;
+    width: 1000px;
+    /* border: 1px solid black; */
+    font-family: 'Nunito',sans-serif;
+
+}
+
+.d8 h1{
+    margin-left: 110px;
+    font-weight: lighter;
+}
+
+.d8 textarea{
+    margin-left: 110px;
+    border: 1px solid #bdbfc1;
+    margin-top: 15px;
+}
+
+.d8 input{
+    height: 50px;
+    text-indent: 10px;
+    border: 1px solid #bdbfc1;
+}
+
+::placeholder{
+    color: #bdbfc1;
+    margin-left: 10px;
+}
+
+.d8 button{
+    height: 55px;
+    width: 150px;
+    border: 1px solid #c00a27;
+    color: #c00a27;
+    transition-duration: 1s;
+    margin-left: 250px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.d8 button:hover{
+    background-color: #c00a27;
+    color: white;
+    font-family: Roboto;
+}
+
+
+footer{
+    height: 700px;
+    width: 100%;
+    background-image: url(Image/Artboard\ 1.png);
+    background-size: cover;
+    transform: rotateX(360deg);
+    /* border: 1px solid black; */
+}
+
+.f1{
+    height: 250px;
+    width: 1000px;
+    /* border: 1px solid white; */
+    margin-left: 180px;
+    display: flex;
+}
+
+.f2{
+    height: inherit;
+    width: 250px;
+    /* border: 1px solid white; */
+    font-family: 'Nunito',sans-serif;
+    color: white;
+}
+
+.f2 li{
+    line-height: 35px;
+    list-style: none;
+    transition-duration: 1s;
+}
+
+#li1{
+    margin-top: 15px;
+}
+
+.f2 li:hover{
+    color: #f4b618;
+}
+
+.f3{
+    height: 150px;
+    width: 1000px;
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    margin-left: 180px;
+    display: flex;
+}
+
+
+.f4{
+    height: inherit;
+    width: 500px;
+    /* border: 1px solid white; */
+    font-family: 'Nunito',sans-serif;
+    color: white;
+}
+
+.f5{
+    height: inherit;
+    width: 500px;
+    /* border: 1px solid white; */
+    font-family: 'Nunito',sans-serif;
+    color: white;
+}
+
+.f6{
+    height: inherit;
+    width: 300px;
+    /* border: 1px solid white; */
+}
+
+.f6 h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.f6 i{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.f7{
+    height: inherit;
+    width: 300px;
+    /* border: 1px solid white; */
+    margin-left: 200px;
+}
+
+.f7 h1{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.f7 img{
+    height: 25px;
+    margin-top: 25px;
+}
+
+.f8{
+    height: 100px;
+    width: 1000px;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.f8 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito',sans-serif;
+    line-height: 100px;
+    margin-left: 100px;
+}
+
+#svg1{
+    margin-left: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

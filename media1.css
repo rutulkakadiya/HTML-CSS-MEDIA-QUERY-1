@@ -1,0 +1,416 @@
+@media (max-width: 1200px)
+{
+
+    /*header start*/
+    header{
+        width: 100%;
+    }
+    header .logo{
+        width: 25%;
+    }
+    header .nav1{
+        width: 65%;
+    }
+    header .nav2 #svg1{
+        margin-left: 50px;
+    }
+
+    /* header over */
+
+    .main1{
+        width: 1200px;
+    }
+
+    .main2{
+        width: 1200px;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .main6{
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .main6 p{
+        margin-left: 310px;
+    } 
+    .main6 .b1{
+        margin-left: 60px;
+    }
+    
+    .main6 .b4{
+        margin-left: 670px;
+    }
+
+    .h1{
+        text-align: center;
+    }
+
+    .section3{
+        width: 100%;
+    }
+    .section3 .s19{
+        width: 300px;
+    }
+    .section3 .s19 .s20{
+        width: 300px;
+        background-size: 100% 100%;
+    }
+    .section3 .s19 .s22{
+        width: 300px;
+        background-size: 100% 100%;
+    }
+    .section3 .s19 .s23{
+        width: 300px;
+        background-size: 100% 100%;
+    }
+    .section3 .s19 .s24{
+        width: 300px;
+        background-size: 100% 100%;
+    }
+    
+    /* footer start */
+    footer{
+        width: 100%;
+    }
+    footer .f1{
+        margin-left: 100px;
+    }
+    
+    footer .f3{
+        margin-left: 100px;
+    }
+    footer .f8{
+        margin-left: 100px;
+    }
+    footer .f8 a{
+        margin-left: 0px;
+    }
+    
+    footer .f8 #svg1{
+        margin-left: 530px;
+    }
+    /* footer over */
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 720px)
+{
+     /* header start */
+     header{
+        width: 720px;
+    }
+    header .nav1{
+        display: none;
+    }
+    header .logo{
+        width: 60%;
+    }
+    header .logo #i2{
+        display: block;
+    }
+    header .logo img{
+        margin-left: 330px;
+        margin-top: -55px;
+    }
+    header .nav2{
+        width: 40%;
+    }
+    header .nav2 #svg1{
+        margin-left: 90px;
+    }
+    /* header over */
+ 
+    .main1{
+        height: 300px;
+        width: 720px;
+    }  
+    .main2{
+        margin-left: 0px;
+        width: 720px;
+    }
+    .main2 .h1{
+        height: 300px;
+        width: 350px;
+    }
+    #h6{
+        height: 300px;
+        width: 350px;
+        display: none;
+    }
+      
+    .main3{
+        width: 720px;
+    }
+    .main3 .h1{
+        margin-left: -150px;
+    }
+    
+    .main6{
+        height: 1000px;
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .main6 p{
+        margin-left: 70px;
+    } 
+    .main6 .b1{
+        margin-left: 15px;
+    }
+    
+    .main6 .b4{
+        margin-left: 270px;
+        display: none;
+    }
+    
+    .main6 .b5{
+        display: none;
+    }
+    .main6 .section2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main6 .section2 .s16{
+        width: 330px;
+    }
+    .main6 .section2 #s20{
+        display: none;
+    }
+    .main6 .section2 #s21{
+        display: none;
+    }
+    .main6 .section2 #s22{
+        display: none;
+    }
+    .main6 .section2 #s23{
+        display: none;
+    }
+    
+    /* footer start */
+    footer{
+        height: 1510px;
+        width: 720px;
+    }
+    footer .f1{
+        width: 700px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .f1 .f2{
+        width: 700px;
+        font-size: 20px;
+    }
+    footer .f3{
+        margin-left: 50px;
+        margin-top: 750px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 650px;
+    }
+    footer .f4{
+        margin-left: 200px;
+        width: 400px;
+    }
+    footer .f8{
+        margin-left: 50px;
+        margin-top: 150px;
+        width: 670px;
+    }
+    footer .f8 a{
+        margin-left: 0px;
+    }
+    
+    footer .f8 #svg1{
+        margin-left: 130px;
+    }
+    /* footer over */
+}
+
+
+
+
+
+
+
+@media (max-width: 480px)
+{
+     /* header start */
+     .logo{
+        width: 100%;
+    }
+    header{
+        width: 480px;
+    }
+    header .nav1{
+        display: none;
+    }
+    header .logo{
+        width: 60%;
+    }
+    header .logo #i2{
+        display: block;
+    }
+    header .logo img{
+        margin-left: 210px;
+        margin-top: -55px;
+    }
+    header .nav2{
+        width: 40%;
+    }
+    header .nav2 #svg1{
+        display: none;
+    }
+    header .nav2 #svg2{
+        margin-left: 50px;
+    }
+    /* header over */
+ 
+    .main1{
+        width: 480px;
+    }  
+
+
+
+
+
+
+
+
+    
+    .main6{
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .main6{
+        height: 1550px;
+        width: 100%;
+    }
+    .section2{
+        width: 100%;
+    }
+    .main6 p{
+        width: 450px;
+        margin-left: 15px;
+    } 
+    .main6 .b1{
+        margin-left: 80px;
+    }
+    
+    .main6 .b4{
+        margin-left: 270px;
+        display: none;
+    }
+    
+    .main6 .b5{
+        display: none;
+    }
+    .main6 .section2{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .main6 .section2 .s16{
+        width: 450px;
+        margin-left: 15px;
+    }
+    .main6 .section2 .s16 .s18{
+        width: 100%;
+    }
+    .main6 .section2 .s16 .s18 #a3{
+        width: 450px;
+        margin-left: -220px;
+    }
+    .mian6 .section2 #s16{
+        margin-top: 50px;
+        display: none;
+    }
+    .main6 .section2 #s20{
+        display: none;
+    }
+    .main6 .section2 #s21{
+        display: none;
+    }
+    .main6 .section2 #s22{
+        display: none;
+    }
+    .main6 .section2 #s23{
+        display: none;
+    }
+    
+    /* footer start */
+    footer{
+        height: 1510px;
+        width: 480px;
+    }
+    footer .f1{
+        width: 460px;
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .f1 .f2{
+        width: 460px;
+        font-size: 20px;
+    }
+    footer .f3{
+        margin-left: 0px;
+        margin-top: 750px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 470px;
+    }
+    footer .f4{
+        margin-left: 100px;
+        width: 200px;
+    }
+    
+    footer .f5{
+        margin-left: -400px;
+        width: 50px;
+        margin-top: 150px;
+    }
+    footer .f8{
+        margin-left: 0px;
+        margin-top: 150px;
+        width: 470px;
+    }
+    footer .f8 a{
+        margin-left: 0px;
+    }
+    
+    footer .f8 #svg1{
+        margin-left: 20px;
+    }
+    /* footer over */
+    
+}
